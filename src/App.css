@@ -1,0 +1,86 @@
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #f9f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.h1 {
+  font-size: 2rem;
+  color: #006400;
+}
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.quiz-container {
+  text-align: center;
+  margin-top: 50px;
+  background-color: white;
+  padding:  20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.question-container {
+  margin: 20px 0;
+}
+
+.options button {
+  margin: 5px;
+}
+
+.option-button:hover {
+  background-color: #90ee90;
+}
+
+.option-button:focus {
+  outline: none;
+  box-shadow: 0 0 8px rgba(0, 128, 0, 0.8);
+}
+
+.results-container {
+  margin-top: 30px;
+}
+
+.score-tracker {
+  margin-bottom: 20px;
+
+}
+
+.app-container {
+  background-color: #d4f7d4;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+}
